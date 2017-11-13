@@ -1,10 +1,69 @@
-  </!DOCTYPE html>
+ </!DOCTYPE html>
   <html>
     <head>
     	<link href= "./Dogs_to_Adopt.css" type= "text/css" rel= "stylesheet">
   	  <title> Dogs to Adopt | SRS </title>
+  	    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     </head>
     <body>
+      <header>
+      	<div class= "header-container">
+          <h1 class= "page-title">Saving Romanian Strays</h1>
+        </div>
+      </header>
+    	  <nav>
+    		<a href="">Home</a>
+    		<a href="">About Us</a>
+    		<a href="">Contact Us</a>
+    	  </nav>
+         
+      <!-- Slideshow -->
+      <div class= "Dogs_Slideshow">
+      	<div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src= "./PUPPY_1.jpg" style="width:50%">
+            <div class= "Puppy_info"> 
+              <h2> Jon </h2>
+              <h3> Date of Birth: 19/05/2017 </h3>
+              <h3> Sex: Male </h3>
+              <h3> Size: Medium </h3>
+              <p> This is little Jon. He was rescued from a public shelter in the northern part of Romania, along with his 4 siblings. He has received all his vaccines and is looking for his forever home! </p>
+            </div>
+           <!-- undecided if to keep <div class="text">Jon</div> -->
 
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="./PUPPY_2.jpg" style="width:100%">
+              <div class= "Puppy_info"> 
+                <h2> Dolly </h2>
+                <h3> Date of Birth: 23/06/2017 </h3>
+                <h3> Sex: Female </h3>
+                <h3> Size: Medium/Large </h3>
+                <p> This is sweet little Dolly. She was found in a bag on the side of the road with her brothers and sisters. She has received all hes vaccines and is looking for her forever home! </p>
+              </div>
+              <div class="text">Puppy 2</div>
+            </div>
+       
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./PUPPY_3.jpg" style="width:100%">
+             <div class="text">Puppy 3</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  </div>
+
+      <script type="text/javascript" src="./Dogs_to_Adopt.js"></script>
     </body>
   </html>
