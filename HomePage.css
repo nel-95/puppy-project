@@ -1,5 +1,27 @@
 /* Stylesheet for Homepage */
 
-body {
-	background-color: #E4FFDC;
+html {
+	background-image: url("seapup.jpg");
+	background-size:cover;
+	background-position: 
+	background repeat: no-repeat;
+}
+
+h1 {
+	color:gray;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align:center;
+	padding:50px 200px;
+	font-family: Quicksand;
+}
+a {
+	text-decoration: none;
+	padding: 50px;
+	text-transform: lowercase;
+	font-family: Quicksand;
+	color: gray;
+}
+.nav {
+	text-align:center;
 }
